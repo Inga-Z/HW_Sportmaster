@@ -1,6 +1,6 @@
 console.log("worked");
 
-const purchaseAmount = 30051;
+const purchaseAmount = 50021;
 
 const needBonuses = Math.round (purchaseAmount/1000)
 
