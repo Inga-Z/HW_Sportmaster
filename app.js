@@ -1,16 +1,16 @@
 console.log("worked");
 
-const purchaseAmount = 50021;
+const purchaseAmount = 5321;
 
-const needBonuses = Math.round (purchaseAmount/1000)
+const stepAmouunt = 1000;
 
-const maxBonuses = Math.round (purchaseAmount * 0.1);
+const needBonuses = Math.round (purchaseAmount/stepAmouunt);
 
-console.log(maxBonuses);
+const stepBonuses = 100;
 
-const Bonuses = 100 * needBonuses; 
+const fullBonuses = stepBonuses * needBonuses; 
 
-console.log(Bonuses);
+console.log(fullBonuses);
 
 
 
